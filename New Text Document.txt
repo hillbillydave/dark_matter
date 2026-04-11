@@ -1,0 +1,60 @@
+🔍 Checking for mw_rotation_data.csv...
+ℹ️ MW CSV: 4 columns detected, but baryons will be learned via Foundry model (v_f, R_f).
+📄 Loading Draco data...
+ℹ️ Baryon model in use for MW: foundry
+🔧 Fitting MW (hybrid v3.3, MW-only)...
+✅ Best-fit parameters (MW-only):
+   rho_star = 1.093
+   Pi0 = 1.183
+   r_P = 2.638
+   Pi1 = 0.5083
+   r_Q = 2.781
+   alpha = 2.653
+   eta = 0.613
+   r_H = 8.911
+   p = 1.124
+   r_T = 80.03
+   epsE = 0.2617
+   r_E = 17.04
+   v_f = 230
+   R_f = 2
+   χ²_MW = 56.32
+📊 MW figure (MW-only) saved as mw_hybrid_v3_3_mw_only.png
+🔧 Fitting Draco (hybrid v3.3, Draco-only)...
+✅ Best-fit parameters (Draco-only):
+   rho_star = 1.797
+   Pi0 = 2
+   r_P = 0.5
+   Pi1 = 0.3672
+   r_Q = 0.8977
+   alpha = 1.003
+   eta = 0.281
+   r_H = 17
+   p = 0.8837
+   r_T = 109.9
+   epsE = 0.3674
+   r_E = 5
+   v_f = 230
+   R_f = 5.963
+   χ²_Draco = 298.52
+📊 Draco figure (Draco-only) saved as draco_hybrid_v3_3_draco_only.png
+🔧 Fitting Joint MW+Draco (hybrid v3.3)...
+✅ Best-fit parameters (Joint MW+Draco):
+   rho_star = 1.719
+   Pi0 = 1.462
+   r_P = 0.5
+   Pi1 = 0.9258
+   r_Q = 1.872
+   alpha = 1
+   eta = 0.748
+   r_H = 14.09
+   p = 1.672
+   r_T = 54.04
+   epsE = 0.3062
+   r_E = 14.85
+   v_f = 229.9
+   R_f = 2.002
+   χ²_joint = 362.54
+📊 Joint MW and Draco figures saved (mw_hybrid_v3_3_joint.png, draco_hybrid_v3_3_joint.png)
+🎯 Hybrid v3.3 joint-fit run complete.
+PS C:\Users\hillb\Documents\dark_matter
