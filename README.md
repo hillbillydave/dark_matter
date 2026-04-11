@@ -141,7 +141,7 @@ If you use this work, please cite:
 
 Blackwell, D. E. (2026).  
 *The Hybrid Capacity–Expansion Framework for Galactic Dynamics.*  
-Zenodo. DOI: <placeholder>
+Zenodo. DOI: (https://doi.org/10.5281/zenodo.19503559)
 
 ---
 
