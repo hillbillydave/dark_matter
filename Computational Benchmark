@@ -1,0 +1,72 @@
+Hardware History & Reproducibility Notes
+One of the core design principles of the Hybrid Capacity–Expansion Framework (HFP) is computational accessibility.
+The framework was originally developed and tested on a very low‑end HP laptop, and only later moved to the current Ryzen‑based system.
+
+This matters because it demonstrates:
+
+the equations are analytical, not brute‑force
+
+the model does not require GPUs, clusters, or HPC resources
+
+the results are reproducible on almost any machine
+
+Original Development Hardware (2024–2025)
+Device: HP consumer laptop
+
+CPU: Dual‑core entry‑level mobile processor
+
+RAM: 8 GB
+
+GPU: Integrated graphics
+
+Runtime:
+
+Single‑galaxy rotation curve: 3–6 seconds
+
+Joint MW+Draco fit: ~10 seconds
+
+Full 14‑D stress test: under 1 minute
+
+This was the hardware used to develop the first working ODIM/QSTF/Foundry engine and the original hybrid v3.0–v3.2 codebase.
+
+Current Hardware (2026)
+CPU: AMD Ryzen 5 8400F (6 cores @ 4.20 GHz)
+
+RAM: 16 GB DDR5 @ 4800 MT/s
+
+GPU: AMD Radeon RX 9060 XT (unused for HFP)
+
+Storage: NVMe SSD
+
+OS: Windows 11 Home
+
+Current runtimes:
+
+Single‑galaxy rotation curve: 0.5–1.0 seconds
+
+Joint MW+DF4 fit: 3–5 seconds
+
+Full 14‑D stress test: seconds to tens of seconds
+
+Why This Matters
+The fact that HFP ran on a low‑end HP laptop — and now runs even faster on a modest Ryzen gaming PC — shows:
+
+the framework is fundamental, not computationally inflated
+
+the math is clean, not dependent on numerical brute force
+
+the results are accessible to anyone, anywhere
+
+the model is scalable without requiring supercomputers
+
+This is a major contrast to ΛCDM N‑body simulations, which require:
+
+millions of CPU hours
+
+GPU clusters
+
+HPC centers
+
+massive parallelization
+
+HFP achieves comparable galactic‑scale predictions in seconds.
