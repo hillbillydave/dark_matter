@@ -4,7 +4,10 @@ A unified geometric model for galactic dynamics based on ODIM, Quiet Scalar Time
 
 Author: David E. Blackwell  
 ORCID: https://orcid.org/0009-0001-8447-9113  
-GET Repository: <ADD YOUR GET LINK HERE>
+### Computational Benchmarks
+See [COMPUTATIONAL_BENCHMARKS.md](COMPUTATIONAL_BENCHMARKS.md) for full runtime tests,
+hardware history, and reproducibility notes.
+
 
 ---
 
